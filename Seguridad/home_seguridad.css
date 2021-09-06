@@ -1,0 +1,9 @@
+.container-fluid {
+    height: 100vh;
+  }
+  #tabla{
+      width: 90vh;
+      background-color: red;
+  }
+
+

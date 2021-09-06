@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restableciendo</title>
+    <link rel="stylesheet" href="restablecer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid contenedor">
+    <div class="card bg-secondary">
+     <!-- Username -->
+     <form method="POST" action="./restablecer.php">
+         <div class="todo">
+             <div class="usuario">
+            <h4 id="usuario">Usuario</h4>
+     <!-- <label for="name" class="label-lote">Lote</label> -->
+     <div class="lote-email">
+     <input type="number" required placeholder="Lote N°" class="input-lote" name="Lote">
+   
+     <!-- Email -->
+ 
+     <!-- <label for="" class="label-email">Email</label> -->
+     <input type="email" name="Email" required class="input-email" placeholder="Email">
+    </div>
+</div>
+     <!-- Password -->
+<div class="contra">
+  <h4 id="contra">Contraseña</h4>
+  <div class="contra-2">
+     <input type="password" required placeholder="Ultima contraseña" class="input-1-contra" name="Contra_vieja"> <input type="password" required placeholder="Nueva" class="input-2-contra" name="Contra_nueva"></div>
+   </div>
+</div>
+     <div class="restablecer">
+         <!-- Submit Button -->
+        <!-- <a href="./dueño.html" target="_blank" class="btn">Restablecer</a> -->
+        <button type="submit" class="btn btn-primary restablecer" name="Restablecer">Enviar</button>
+     </div>
+ </form> 
+</div>   
+</div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

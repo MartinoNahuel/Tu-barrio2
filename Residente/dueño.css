@@ -1,0 +1,55 @@
+
+.container{
+    max-width: 100%;
+    height: 100vh;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+   padding-left: 10px;
+}
+form{
+    height: 190px;
+  width: 300px;
+
+
+}
+.container-login{
+margin-left: 55px;
+    padding-top: 15px;
+width: 250px;
+
+}
+.input-contra{
+ margin-top: 10px;
+}
+.botones1{
+
+    padding-top: 15px;
+    width: 300px;
+    display: inline-flex;
+justify-content: space-evenly;
+
+    
+}
+a{
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: yellow;
+}
+.ultimo{
+    padding-top: 15px;
+    width: 300px;
+}
+.entrar{
+    width: 100px;
+    margin-left: 180px;
+}
+input::placeholder{
+    padding-left: 10px;
+}

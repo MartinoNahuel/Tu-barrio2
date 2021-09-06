@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invitado</title>
+    <link rel="stylesheet" href="invitado.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- <h1 id="Tus-datos" >Permiso para entrar</h1> -->
+   <div class="contenedor conteiner-fluid ">
+       <form class="card bg-secondary" method="POST" action="./invitado.php">
+        <div class="b-form" id="bloque">
+           
+           <div class="ingresante"> 
+            <h4>Ingresante</h4>
+               <div class="consulta-1">
+            <label for="Nombre" class="label-NyA" >Nombre y Apellido</label> 
+           <input class="NyA" type="text"placeholder="Del visitante responsable" required name="Nombre_responsable"> 
+        </div>
+        <div class="consulta-2">
+               <label class="DNI">Documento</label> 
+               <br><input type ="number" required minlength="8" maxlength="8" class="input-consulta-2" placeholder="Solo números" name="Documento">
+            </div>
+            <div class="consulta-3">
+               <label for="Cantidad de personas" class="label-consulta-3">Cantidad de personas</label>   
+              <br><input type="number" placeholder="Ingresantes"required class="input-consulta-3" name="Cantidad_de_personas">
+            </div>
+            <div class="consulta-4">
+               <label for="email" class="label-consulta-4">Email</label> 
+                <br><input type="email" name="Email" placeholder="Ejemplo@ejemplo.com" required class="input-consulta-4">
+            </div>
+        </div>
+            <div class="propietario">
+                <h4>Propietario</h4 >
+
+                <div class="consulta-5">
+                <label for="Nombre y apellido" class="label-consulta-5">Nombre y Apellido</label>
+                   <input type="text" class="input-consulta-5" required name="Nombre_residente" >
+                </div>
+                <div class="consulta-6">
+                 <label for="lote" class="label-consulta-6">Lote</label>
+                   <br><input type="number" class="input-consulta-6" required placeholder="N° de Lote" name="Lote"><br>
+                </div>
+            </div>
+            <div class="observaciones">
+                <h4>Observaciones</h4>
+                <div class="consulta-7 container-fluid">
+             <textarea  required
+             id="comentario" placeholder="Si no tienes comentario escribe 'NO'"cols="28" rows="5" name="Comentario"></textarea>
+            </div>
+            </div>
+        <div class="boton"></div>
+  <button type="submit" class="btn btn-primary" name="enviar">Enviar</button>
+ </div>
+    </form>
+</div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>

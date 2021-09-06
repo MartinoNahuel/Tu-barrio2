@@ -1,0 +1,106 @@
+.contenedor{
+    max-width: 100%;
+    height: 100vh;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding-top: 30px;
+    padding-left: 10px;
+
+ }
+ form{
+    margin-top: 150px;
+    height: 735px;
+    width: 320px;
+}
+input{
+    width: 220px;
+}
+h4{
+    padding-top: 8px;
+    margin-bottom: 0%;
+}
+.consulta-1{
+    width: 310px;
+}
+.DNI{
+    margin-top: 5px;
+}
+.NyA{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.consulta-2{
+    width: 310px;
+}
+.input-consulta-2{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.consulta-3{
+    width: 310px;
+}
+.label-consulta-3{
+    margin-top: 5px;
+}
+.input-consulta-3{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.consulta-4{
+    width: 310px;
+}
+.label-consulta-4{
+    margin-top: 5px;
+}
+.input-consulta-4{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.consulta-5{
+    width: 310px;
+}
+.input-consulta-5{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.consulta-6{
+    width: 310px;
+}
+.label-consulta-6{
+    margin-top: 5px;
+}
+.input-consulta-6{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.consulta-7{
+    width: 290px;
+    margin-left: 0%;
+}
+#comentario{
+    margin-top: 5px;
+ margin-left: 10px;
+
+}
+.boton{
+    width: 310px;
+}
+.btn{
+    width: 110px;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+label{
+    color: greenyellow;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+textarea::placeholder{
+    margin-left: 10px;
+}
